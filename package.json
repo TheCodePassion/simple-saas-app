@@ -1,0 +1,26 @@
+{
+  "name": "simple-saas-prisma-stripe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^1.4.0",
+    "@prisma/client": "^5.9.1",
+    "next": "14.1.0",
+    "next-auth": "^4.24.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "stripe": "^14.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "prisma": "^5.9.1",
+    "tailwindcss": "^3.4.1"
+  }
+}
